@@ -19,8 +19,8 @@ Sideloaded:
 
 | Application | Bundle | Version | SCMusicPlus | File Type |
 | :--- |:---:|:---:|:---:|:---:|
-| [SoundCloud](https://rov3r.github.io/depiction/com.rov3r.scmusicplus/soundcloud-6.8.1-SCMusicPlus-2.2.1.ipa) | com.soundcloud.TouchApp | 6.8.1 | 2.2.1 | IPA |
-| [SoundCloud](https://rov3r.github.io/depiction/com.rov3r.scmusicplus/soundcloud-6.8.1-SCMusicPlus-2.2.1.zip) | com.soundcloud.TouchApp | 6.8.1 | 2.2.1 | ZIP |
+| [SoundCloud](https://rov3r.github.io/depiction/com.rov3r.scmusicplus/soundcloud-6.8.1-scmusicplus-2.2.1.ipa) | com.soundcloud.TouchApp | 6.8.1 | 2.2.1 | IPA |
+| [SoundCloud](https://rov3r.github.io/depiction/com.rov3r.scmusicplus/soundcloud-6.8.1-scmusicplus-2.2.1.zip) | com.soundcloud.TouchApp | 6.8.1 | 2.2.1 | ZIP |
 | [SoundCloud](https://rov3r.github.io/deb/com.rov3r.scmusicplus_2.2.1_iphoneos-arm.deb) | N/A | N/A | 2.2.1 | DEB |
 
 # Depiction
