@@ -8,12 +8,12 @@ Enhance your SoundCloud experience with the following features:
 Jailbroken: Add my repo, https://rov3r.github.io/
 
 Sideloaded:
-1.) Download the REGULAR SoundCloud app from the app store (IMPORTANT)
-2.) Sign in to the app
-3.) Delete the app while still signed in
-4.) Download the IPA (app file) from the table below.
-5.) Install using your preferred sideloading method** (AltStore, Sideloadly, appdb, etc.)
-6.) Once installed, you can enjoy, as you should be logged in already.
+- Download the REGULAR SoundCloud app from the app store (IMPORTANT)
+- Sign in to the app
+- Delete the app while still signed in
+- Download the IPA (app file) from the table below.
+- Install using your preferred sideloading method** (AltStore, Sideloadly, appdb, etc.)
+- Once installed, you can enjoy, as you should be logged in already.
 
 ** make sure not to modify the bundle id or else sign-in will probably fail
 
