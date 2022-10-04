@@ -7,7 +7,15 @@ Enhance your SoundCloud experience with the following features:
 # Installation
 Jailbroken: Add my repo, https://rov3r.github.io/
 
-Sideloaded: Download IPA or DEB file from here and install using your preferred sideloading method.
+Sideloaded:
+1.) Download the REGULAR SoundCloud app from the app store (IMPORTANT)
+2.) Sign in to the app
+3.) Delete the app while still signed in
+4.) Download the IPA (app file) from the table below.
+5.) Install using your preferred sideloading method** (AltStore, Sideloadly, appdb, etc.)
+6.) Once installed, you can enjoy, as you should be logged in already.
+
+** make sure not to modify the bundle id or else sign-in will probably fail
 
 | Application | Bundle | Version | SCMusicPlus | File Type |
 | :--- |:---:|:---:|:---:|:---:|
