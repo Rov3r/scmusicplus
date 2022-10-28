@@ -17,7 +17,7 @@ Sideloaded (iOS 15):
 
 Sideloaded (iOS 16):
 - Download the REGULAR SoundCloud app from the app store (IMPORTANT)
-- Sign in to the app using the Google Account sign-in (working on a fix in the meantime for regular accounts)
+- Sign in to the app using ONLY Google or Facebook Account sign-in (working on fix for all accounts)
 - Delete the app while still signed in
 - Download the IPA (app file) from the table below.
 - Install using your preferred sideloading method** (AltStore, Sideloadly, appdb, etc.)
