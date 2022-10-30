@@ -7,6 +7,14 @@ Enhance your SoundCloud experience with the following features:
 # Installation
 Jailbroken: Add my repo, https://rov3r.github.io/
 
+Sideloaded (TrollStore):
+- Download the REGULAR SoundCloud app from the app store (IMPORTANT)
+- Sign in to the app
+- Delete the app while still signed in
+- Download the TrollStore ipa from the table below.
+- Once installed, you can enjoy, as you should be logged in already.
+
+
 Sideloaded (iOS 15):
 - Download the REGULAR SoundCloud app from the app store (IMPORTANT)
 - Sign in to the app
@@ -38,6 +46,7 @@ For troubleshooting assistance, please see the issues section of this repository
 | Application | Bundle | Version | SCMusicPlus | File Type |
 | :--- |:---:|:---:|:---:|:---:|
 | [SoundCloud](https://rov3r.github.io/depiction/com.rov3r.scmusicplus/soundcloud-6.10.0-SCMusicPlus-2.2.1.ipa) | com.soundcloud.TouchApp | 6.10.0 | 2.2.1 | IPA |
+| [SoundCloud](apple-magnifier://install?url=https://rov3r.github.io/depiction/com.rov3r.scmusicplus/soundcloud-6.10.0-SCMusicPlus-2.2.1.ipa) | com.soundcloud.TouchApp | 6.10.0 | 2.2.1 | TrollStore |
 | [SoundCloud](https://rov3r.github.io/depiction/com.rov3r.scmusicplus/soundcloud-6.10.0-SCMusicPlus-2.2.1.zip) | com.soundcloud.TouchApp | 6.10.0 | 2.2.1 | ZIP |
 | [SoundCloud](https://rov3r.github.io/deb/com.rov3r.scmusicplus_2.2.1_iphoneos-arm.deb) | N/A | N/A | 2.2.1 | DEB |
 
