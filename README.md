@@ -1,4 +1,4 @@
-# SCMusicPlus
+# scmusicplus.github.io
 Enhance your SoundCloud experience with the following features:
 - Remove Ads
 - Remove Promoted Playlists
