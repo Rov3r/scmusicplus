@@ -23,23 +23,12 @@ Sideloaded (iOS 15):
 - Install using your preferred sideloading method** (AltStore, Sideloadly, appdb, etc.)
 - Once installed, you can enjoy, as you should be logged in already.
 
+
 Sideloaded (iOS 16):
 - Until fixed, users will have to link a Google or Facebook account to their SoundCloud. This can be done on the SoundCloud website.
-- Download the REGULAR SoundCloud app from the app store
-- Sign in to the app using Google or Facebook Account sign-in
-- Delete the app while still signed in
 - Download the IPA (app file) from the table below.
 - Install using your preferred sideloading method** (AltStore, Sideloadly, appdb, etc.)
-- Once installed, you can enjoy, as you should be logged in already.
-
-Sideloaded (iOS 16) [Alternative]:
-- Until fixed, users will have to link a Google or Facebook account to their SoundCloud. This can be done on the SoundCloud website.
-- Download the IPA (app file) from the table below.
-- Install using your preferred sideloading method** (AltStore, Sideloadly, appdb, etc.)
-- Sign in using your Google or Facebook account
-- [Use the same method uYou used for bypassing the unsafe installation login error](https://github.com/qnblackcat/uYouPlus/discussions/447)
-
-** make sure not to modify the bundle id or else sign-in will probably fail
+- Once installed, sign in using only via Google or Facebook. Regular email (including gmail) doesn't work for now. This will be addressed in a future update.
 
 For troubleshooting assistance, please see the issues section of this repository.
 
