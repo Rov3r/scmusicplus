@@ -11,22 +11,14 @@ Sideloaded (TrollStore):
 - Download the REGULAR SoundCloud app from the app store (IMPORTANT)
 - Sign in to the app
 - Delete the app while still signed in
-- Download the TrollStore ipa from the table below.
-- Once installed, you can enjoy, as you should be logged in already.
+- Download the .ipa (application file) from a source of your choosing
+- Use Sideloadly to merge the deb (in Releases) with the ipa
+- Once installed, you can enjoy, as you should be logged in already
 
-
-Sideloaded (iOS 15):
-- Download the REGULAR SoundCloud app from the app store (IMPORTANT)
-- Sign in to the app
-- Delete the app while still signed in
-- Download the IPA (app file) from the table below.
-- Install using your preferred sideloading method** (AltStore, Sideloadly, appdb, etc.)
-- Once installed, you can enjoy, as you should be logged in already.
-
-
-Sideloaded (iOS 16):
+Sideloaded (Developer Account):
 - Until fixed, users will have to link a Google or Facebook account to their SoundCloud. This can be done on the SoundCloud website.
-- Download the IPA (app file) from the table below.
+- Download the .ipa (application file) from a source of your choosing
+- Use Sideloadly to merge the deb (in Releases) with the ipa
 - Install using your preferred sideloading method** (AltStore, Sideloadly, appdb, etc.)
 - Once installed, sign in using only via Google or Facebook. Regular email (including gmail) doesn't work for now. This will be addressed in a future update.
 
