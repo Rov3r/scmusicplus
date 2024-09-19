@@ -1,0 +1,11 @@
+Package: com.rov3r.scmusicplus
+Name: SCMusicPlus
+Author: Rov3r
+Description: Enhance your SoundCloud experience
+Depiction: https://rov3r.github.io/depiction/com.rov3r.scmusicplus/tweak_depiction.html
+Depends: mobilesubstrate (>= 0.9.5000)
+Maintainer: Rov3r <rov3rrepo@pm.me>
+Architecture: iphoneos-arm
+Section: Tweaks
+Version: 24.9.1
+
