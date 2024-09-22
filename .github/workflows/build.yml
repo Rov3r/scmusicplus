@@ -45,11 +45,11 @@ jobs:
           path: packages/*_iphoneos-arm64.deb
 
   build-rootful:
-    runs-on: macos-11
+    runs-on: macos-12
     steps:
       - uses: maxim-lobanov/setup-xcode@v1
         with:
-          xcode-version: '11.7'
+          xcode-version: '14.2'
             
       - uses: actions/checkout@main
 
