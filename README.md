@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://rov3r.github.io/depictions/assets/images/scmusicplus-icon.png" width="150" title="SCMusicPlus">
+</p>
+
 # SCMusicPlus
 Enhance your SoundCloud experience with the following features:
 - Remove Ads
