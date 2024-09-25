@@ -1,0 +1,82 @@
+name: Build
+
+on:
+  push:
+    branches: ["*"]
+  pull_request:
+    branches: ["*"]
+    
+jobs:
+  build-rootless:
+    runs-on: macos-13
+    steps:
+      - uses: maxim-lobanov/setup-xcode@v1
+        with:
+          xcode-version: latest-stable
+            
+      - uses: actions/checkout@main
+
+      - name: Checkout theos/theos
+        uses: actions/checkout@main
+        with:
+          repository: theos/theos
+          ref: master
+          submodules: recursive
+          path: theos
+
+      - name: Checkout SDKs
+        uses: actions/checkout@main
+        with:
+          repository: xybp888/iOS-SDKs
+          ref: master
+          sparse-checkout: iPhoneOS15.5.sdk
+          path: theos/sdks
+
+      - name: Install dependencies
+        run: brew install make xz ldid
+
+      - name: Build package (rootless)
+        run: THEOS=theos gmake clean package FINALPACKAGE=1 THEOS_PACKAGE_SCHEME=rootless
+
+      - name: Upload a Build Artifact (rootless)
+        uses: actions/upload-artifact@v3
+        with:
+          name: packages iphoneos-arm64 (rootless)
+          path: packages/*_iphoneos-arm64.deb
+
+  build-rootful:
+    runs-on: macos-12
+    steps:
+      - uses: maxim-lobanov/setup-xcode@v1
+        with:
+          xcode-version: '14.2'
+            
+      - uses: actions/checkout@main
+
+      - name: Checkout theos/theos
+        uses: actions/checkout@main
+        with:
+          repository: theos/theos
+          ref: master
+          submodules: recursive
+          path: theos
+
+      - name: Checkout SDKs
+        uses: actions/checkout@main
+        with:
+          repository: xybp888/iOS-SDKs
+          ref: master
+          sparse-checkout: iPhoneOS14.2.sdk
+          path: theos/sdks
+
+      - name: Install dependencies
+        run: brew install make xz ldid
+
+      - name: Build package (rootful)
+        run: THEOS=theos gmake clean package FINALPACKAGE=1
+
+      - name: Upload a Build Artifact (rootful)
+        uses: actions/upload-artifact@v3
+        with:
+          name: packages iphoneos-arm (rootful)
+          path: packages/*_iphoneos-arm.deb
