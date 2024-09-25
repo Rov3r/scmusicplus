@@ -8,6 +8,8 @@ Enhance your SoundCloud experience with the following features:
 - Remove Promoted Playlists
 - Remove Upsell Buttons
 
+Note: To ensure all ads are blocked, use a DNS filter like nextDNS to block the domain 'ads.soundcloud.com'
+
 # Building
 You can build the project any time using GitHub actions. Just run build.yml and you will get both rootful and rootless debs in a zip file.
 
