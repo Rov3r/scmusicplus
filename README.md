@@ -11,6 +11,10 @@ Enhance your SoundCloud experience with the following features:
 # Building
 You can build the project any time using GitHub actions. Just run build.yml and you will get both rootful and rootless debs in a zip file.
 
+# Known Issues
+- Sideloading without TrollStore breaks sign-in, even with unmodified ipa
+- Sideloading without TrollStore, on at least on 7.55.0 or higher, app will crash on launch, even with unmodified ipa
+
 # Installation
 Jailbroken: Add my repo, https://rov3r.github.io/
 
