@@ -10,30 +10,20 @@ Enhance your SoundCloud experience with the following features:
 
 Note: To ensure all ads are blocked, use a DNS filter like nextDNS to block the domain 'ads.soundcloud.com'
 
+# Development Status
+In 2026 and beyond, I advise that you check the forks from this project, as other developers (<a href="https://github.com/waruhachi/SCMusicPlus">waruhachi</a>) have added built-in network blocking and other improvements. At this point, I don't see when I'd have free time to learn IDA, so likely, this is as far as I can push the tweak with my current tools.
+
 # Building
 You can build the project any time using GitHub actions. Just run build.yml and you will get both rootful and rootless debs in a zip file.
 
 # Known Issues
-- Sideloading without TrollStore breaks sign-in, even with unmodified ipa
-- Sideloading without TrollStore, on (at least) 7.55.0 or higher, app will crash on launch, even with unmodified ipa
+- Network-served ads are not blocked in this version.
 
 # Installation
 Jailbroken: Add my repo, https://rov3r.github.io/
 
-Sideloaded (TrollStore):
-- Download the REGULAR SoundCloud app from the app store (IMPORTANT)
-- Sign in to the app
-- Delete the app while still signed in
-- Download the .ipa (application file) from a source of your choosing
-- Use Sideloadly to merge the deb (in Releases) with the ipa
-- Once installed, you can enjoy, as you should be logged in already
-
-Sideloaded (Developer Account):
-- Until fixed, users will have to link a Google or Facebook account to their SoundCloud. This can be done on the SoundCloud website.
-- Download the .ipa (application file) from a source of your choosing
-- Use Sideloadly to merge the deb (in Releases) with the ipa
-- Install using your preferred sideloading method** (AltStore, Sideloadly, appdb, etc.)
-- Once installed, sign in using only via Google or Facebook. Regular email (including gmail) doesn't work for now. This will be addressed in a future update.
+# Sideloading
+All previous issues where sign-in was broken, are fixed by using Sideloadly's Sideload Spoofer option when compiling the IPA. I recommend using iOSGods website for grabbing IPAs.
 
 For troubleshooting assistance, please see the issues section of this repository.
 
